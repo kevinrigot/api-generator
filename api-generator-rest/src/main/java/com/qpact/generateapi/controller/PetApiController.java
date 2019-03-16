@@ -48,6 +48,11 @@ public class PetApiController implements PetApi {
     }
 
     @Override
+    public ResponseEntity<Void> updatePetStatus(Long petId, String status) {
+        return null;
+    }
+
+    @Override
     public ResponseEntity<Void> updatePetWithForm(Long petId, String name, String status) {
         return null;
     }
